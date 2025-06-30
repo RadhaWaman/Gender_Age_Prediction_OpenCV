@@ -1,6 +1,23 @@
-# Gender_Age_Prediction_OpenCV
+# 👤 Gender and Age Prediction using OpenCV
 
--> Usage 
-# Step 1 : Go to command prompt and set working directory where the gender_age.py file is stored
-# Step 2 : Execute the following command to detect from image: python gender_age.py -i 1.jpg  
-# Step 3 : Execute the following command to detect from webcam: python gender_age.py
+A Python-based deep learning project that predicts gender and age from an image or webcam feed using OpenCV and pre-trained models.
+
+---
+
+## 🚀 Features
+- Predicts **gender** (Male/Female)
+- Estimates **age range**
+- Works with both **image input** and **live webcam**
+
+---
+
+## 🛠️ Requirements
+
+- Python 3.x  
+- OpenCV (`opencv-python`)  
+- NumPy  
+- Pre-trained models (ensure they're in the correct path)
+
+Install dependencies using:
+```bash
+pip install -r requirements.txt
